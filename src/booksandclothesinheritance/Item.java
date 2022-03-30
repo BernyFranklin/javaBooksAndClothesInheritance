@@ -5,7 +5,7 @@
 package booksandclothesinheritance;
 
 public class Item {
-    // Protected variables can be accessed by child class
+    // Protected instance variables can be accessed by child class
     protected double price;
     protected int inStock;
     

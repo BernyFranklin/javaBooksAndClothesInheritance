@@ -6,7 +6,9 @@ package booksandclothesinheritance;
 
 // Start of class Book
 public class Book extends Item{
+    // Constant for max price
     private static final double MAX_BOOK_PRICE = 100.00;
+    // Instance Variables
     private String title;
     private String author;
     private int date;
@@ -59,7 +61,7 @@ public class Book extends Item{
             this.price = price;
         
         // Return new price
-        return this.price
+        return this.price;
     }   // End of setPrice
     
     @Override   // Overrides toString in SuperClass

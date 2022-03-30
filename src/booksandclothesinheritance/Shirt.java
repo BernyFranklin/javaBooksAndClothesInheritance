@@ -1,13 +1,10 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * This is a subclass of class Clothing
+ * 
  */
+
 package booksandclothesinheritance;
 
-/**
- *
- * @author frankbernal
- */
-public class Shirt {
+public class Shirt extends Clothing {
     
-}
+}   // End of class
