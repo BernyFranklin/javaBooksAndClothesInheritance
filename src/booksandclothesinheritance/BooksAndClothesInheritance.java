@@ -2,8 +2,8 @@
  * booksAndClothesInheritance Version1.0
  * Frank Bernal
  * CIS 084 Java Programming
- * Input
- * Output
+ * Input: None
+ * Output: Display of array objects and created objects
  * 29 Mar 2022
  */
 
@@ -45,7 +45,13 @@ public class BooksAndClothesInheritance {
         Pants myPants = new Pants ("Jorts", "Levi Strauss", "32", "12", "Blue",
                                     29.95, 10);
         
+        // Header for lab
+        System.out.println("===================================");
+        System.out.println("     Java Class and Object Lab     ");
+        System.out.println("===================================");
+        
         // Display objects that were created in main
+        System.out.println ("List of objects created in main");
         System.out.println ("My first book is: " + myBook.getTitle());
         System.out.println ("My shirt selection is: " + myShirt.getType());
         System.out.println ("My pants selection are: " +myPants.getType());
@@ -53,7 +59,7 @@ public class BooksAndClothesInheritance {
         // Using a standard for statement to display all books in BOOK_LIST
         // Using i to index through the array
         System.out.println();   // Blank line
-        System.out.println("Inventory");
+        System.out.println("Inventory of all items in arrays");
         System.out.println("QTY    PRICE  ITEM");
         for (int i = 0; i < BOOK_COUNT; i++) {
             System.out.printf ("%3d  %7.2f  %-30.30s\n",
@@ -78,13 +84,13 @@ public class BooksAndClothesInheritance {
         }   // End of pant loop
         
         // Display items in the arrays using the toString method
-        System.out.println ("\nBooks in the array");
+        System.out.println ("\nBooks in BOOK_LIST array");
         for (Book b: BOOK_LIST)   { System.out.println(b); }
         
-        System.out.println ("\nShirts in array");
+        System.out.println ("\nShirts in SHIRT_LIST array");
         for (Shirt s: SHIRT_LIST) { System.out.println(s); }
         
-        System.out.println ("\nPants in array");
+        System.out.println ("\nPants in PANT_LIST array");
         for (Pants p: PANT_LIST)  { System.out.println(p); }
         
     }   // End of PSV Main
