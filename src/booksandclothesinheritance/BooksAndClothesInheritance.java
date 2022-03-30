@@ -60,6 +60,7 @@ public class BooksAndClothesInheritance {
         System.out.println ("\nBooks in the array");
         for (Book b: BOOK_LIST)   { System.out.println(b); }
         
+        System.out.println ("\nShirts in array");
         for (Shirt s: SHIRT_LIST) { System.out.println(s); }
         
     }   // End of PSV Main
